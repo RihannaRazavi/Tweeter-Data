@@ -279,22 +279,6 @@ This subsampling approach is particularly important for our analysis because:
 - **Validation Loss:** Monitor for overfitting
 - **Test Evaluation:** Final silhouette score comparison on held-out data
 
-### Final Comparison:
-Compare clustering quality between:
-1. CRC pre-trained embeddings (no fine-tuning, full data)
-2. SimCSE fine-tuned embeddings (domain-adapted, evaluated on test set)
-
-## Why This Approach?
-
-| Approach | Split? | Justification |
-|----------|--------|---------------|
-| **CRC Models** | No | Pre-trained models with no weight updates; unsupervised clustering uses internal metrics |
-| **Fine-tuning** | Yes | Model weights are updated; need validation for hyperparameters and test for unbiased comparison |
-
-This design allows us to:
-1. Maximize data utilization for unsupervised discovery (CRC approach)
-2. Properly evaluate fine-tuning improvements without data leakage (SimCSE approach)
-3. Fairly compare both approaches on the same test set
 
 ## Infrastructure
 
