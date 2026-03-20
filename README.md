@@ -312,11 +312,6 @@ This update describes the progress on fine-tuning BERT models for unsupervised c
 ---
 
 
-# Classify into Positive/Neutral/Negative
-df['sentiment'] = df['vader_compound'].apply(lambda x: 
-    'Positive' if x >= 0.05 else ('Negative' if x <= -0.05 else 'Neutral'))
-```
-
 **Results:**
 - Positive tweets: ~45%
 - Neutral tweets: ~30%
