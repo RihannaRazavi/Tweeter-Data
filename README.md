@@ -495,9 +495,9 @@ For each tweet (anchor):
 
 **Analysis:**
 While this represents massive improvement, we identified a critical flaw:
-- ❌ **Circular dependency**: Training relies on potentially bad initial clusters
-- ❌ **Error reinforcement**: If initial K-means clusters are wrong, we teach BERT the wrong patterns
-- ❌ **Limited ceiling**: Can't exceed quality of initial clustering
+-  **Circular dependency**: Training relies on potentially bad initial clusters
+-  **Error reinforcement**: If initial K-means clusters are wrong, we teach BERT the wrong patterns
+-  **Limited ceiling**: Can't exceed quality of initial clustering
 
 This led us to our second, more principled approach.
 
