@@ -624,3 +624,12 @@ The SimCSE self-supervised fine-tuning successfully completed after approximatel
 The evaluation results demonstrate significant improvement over the baseline BERT embeddings, with the test set achieving a silhouette score of 0.0382 compared to the baseline score of 0.0008—representing a 4,671% improvement. While this falls short of the initial cluster-based fine-tuning approach (which achieved 0.0502), the SimCSE method exhibits superior generalization properties with an extremely small train-test gap of only 0.0009, indicating excellent model stability and minimal overfitting. The consistent performance across training (0.0372), validation (0.0376), and test (0.0382) sets confirms that the self-supervised contrastive learning approach successfully learned meaningful semantic representations of marriage discourse without relying on potentially noisy cluster assignments. The Davies-Bouldin Index of 4.616 and Calinski-Harabasz score of 814.05 on the test set further validate the improved cluster separation and quality achieved through this state-of-the-art fine-tuning methodology.
 
 https://colab.research.google.com/drive/12pB2tBtDnwdf_v6FfG7Yg00c-RH5qDNI
+
+
+
+
+
+https://colab.research.google.com/drive/12-nZfrfVN8Gci0pc9YDWCLoGRR7JhnRm
+
+
+https://colab.research.google.com/drive/1KJzrMk_TnVpjmOMpSnOxgsWxznRQi6cm
