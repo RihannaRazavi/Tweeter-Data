@@ -107,7 +107,7 @@ Self-supervised contrastive learning to create domain-specific embeddings:
 
 This project utilizes a large-scale Twitter dataset focused on marriage and relationship discourse. The dataset supports two distinct analytical approaches with different data handling strategies.
 
-**Dataset Link:** [Google Drive - Marriage Tweets Dataset](https://drive.google.com/drive/folders/16XXPylcNEPI-ZffEvckNSaFuLzI0er9u)
+**Dataset Link:** https://drive.google.com/file/d/1vH_Cqg_g1w0s_8LgmPSme2l4RWqD0TNl/view?usp=sharing
 
 ## Data Source and Collection
 
