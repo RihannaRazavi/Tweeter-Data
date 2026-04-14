@@ -296,12 +296,6 @@ I attest that I have physically downloaded and processed the dataset described i
 
 ---
 
-# Part 3: First Project Update - Twitter Marriage Discourse Analysis
-
-**Project Title:** Self-Supervised BERT Fine-Tuning for Twitter Sentiment Clustering using SimCSE  
-**Student:** Rihanna (Reyhaneh S. Razavi)  
-**Date:** March 22, 2026  
-**Course:** NN
 
 ---
 
