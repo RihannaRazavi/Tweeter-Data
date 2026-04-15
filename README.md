@@ -1159,7 +1159,7 @@ semantic group, with genuinely tight within-cluster similarity.
 
 ---
 
-### Final Comparison: All Approaches
+### Comparison: All Approaches
 
 | Model | Approach | Best Silhouette | Best Config |
 |-------|----------|----------------|-------------|
@@ -1174,7 +1174,8 @@ semantic group, with genuinely tight within-cluster similarity.
 ---
 
 ### Figures
-they are all in their related colabs files.
+they are all in their related colabs files also.
+part 5 would be to add crc results interpretation and comparison as well.
 
 
 
