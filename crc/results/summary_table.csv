@@ -1,7 +1,0 @@
-Condition,n,CPIC_M,CPIC_SD,d,SIS_M,SIS_SD,Memories
-baseline_no_conflict,99,0.0,0.0,0.0,84.9,7.6,12.0
-constructive,99,49.4,8.8,7.91,87.9,9.5,217.0
-destructive_overheard,98,58.9,9.0,9.24,97.7,8.9,250.0
-destructive_witnessed,98,62.4,7.6,11.7,98.8,7.4,249.0
-destructive_involved,100,59.8,10.1,8.31,96.4,8.0,132.0
-destructive_chronic_mixed,94,63.1,7.8,11.65,99.7,8.2,588.0

@@ -1,8 +1,0 @@
-,word_count,word_count,negativity_pct,positivity_pct,conflict_phrases,resolution_phrases
-,count,mean,mean,mean,mean,mean
-condition,,,,,,
-constructive,741,3956.9,0.59,2.96,0.7,9.03
-destructive_chronic_mixed,2547,5790.56,1.99,0.74,14.23,2.73
-destructive_involved,367,1342.73,1.9,1.46,4.29,2.71
-destructive_overheard,738,6027.96,2.0,0.75,14.3,2.79
-destructive_witnessed,739,5891.55,2.01,0.74,14.33,2.7
