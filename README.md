@@ -1157,24 +1157,8 @@ semantic group, with genuinely tight within-cluster similarity.
 
 ---
 
-### Interpretation
-
-PCA reduction helped all three collapsed models in relative terms (+180% to
-+275%) but the absolute values (0.029–0.032) remain near zero — there is no
-genuine semantic structure to recover regardless of how the space is projected.
-The improvements reflect noise removal from irrelevant dimensions, not genuine
-cluster discovery.
-
-For DeBERTa, PCA had minimal effect on KMeans (+2%) but unlocked a major
-improvement with HDBSCAN (+92%), pushing the silhouette from 0.2215 to 0.4249.
-A silhouette above 0.4 in NLP clustering is considered excellent and is the
-strongest result produced across the entire study by any model, any algorithm,
-and any dimensionality setting.
-
-**The recommended pipeline for this dataset is:**
-> DeBERTa-v3-small + SimCSE fine-tuning → PCA-64 reduction →
-> HDBSCAN (min_cluster_size=100) → 12 clusters, silhouette=0.4249
-
+### Figures
+they are all in their related colabs files.
 
 
 
