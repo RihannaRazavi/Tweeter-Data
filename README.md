@@ -288,7 +288,7 @@ This subsampling approach is particularly important for our analysis because:
 - URL presence flags
 - Mention count
 
-### 2.3 Baseline Clustering Analysis 
+### Baseline Clustering Analysis 
 
 **Embedding Models Tested:**
 
@@ -328,26 +328,8 @@ BERT was pre-trained on Wikipedia and BookCorpus - general English text. Marriag
 
 This motivated our decision to pursue **domain-adaptive fine-tuning**.
 
-### 2.4 Topic Modeling with LDA 
 
-To understand what topics exist in the data, we applied Latent Dirichlet Allocation:
-
-
-**Discovered Topics:**
-1. **Weddings**: wedding, dress, ceremony, bride, married
-2. **Anniversaries**: years, anniversary, together, celebrate
-3. **Appreciation**: love, best, grateful, amazing, blessed
-4. **Complaints**: annoying, hate, always, never, tired
-5. **Daily Life**: dinner, made, home, tonight, cooking
-6. **Humor**: lol, haha, funny, mood, literally
-7. **Advice**: relationship, communication, respect, important
-8. **Conflict**: fight, argument, mad, upset, apologize
-9. **Romance**: date, romantic, night, special, beautiful
-10. **Family**: kids, children, family, parents, baby
-
-These topics validate that our data captures diverse marriage discourse and provides ground truth for evaluating cluster interpretability.
-
-### 2.5 Visualization with Dimensionality Reduction\
+###  Visualization with Dimensionality Reduction\
 
 We created visualizations using multiple dimensionality reduction techniques:
 
@@ -373,9 +355,9 @@ We created visualizations using multiple dimensionality reduction techniques:
 
 ---
 
-## 3. Fine-Tuning Approaches
+##  Fine-Tuning Approaches
 
-### 3.1 Why Fine-Tuning Instead of Domain-Adaptive Pre-training?
+###  Why Fine-Tuning Instead of Domain-Adaptive Pre-training?
 
 **Domain-Adaptive Pre-training Option:**
 We considered continuing BERT's masked language modeling (MLM) pre-training on our 300K marriage tweets. This approach would teach BERT marriage-specific vocabulary and syntax.
@@ -397,7 +379,7 @@ We considered continuing BERT's masked language modeling (MLM) pre-training on o
 3. ✓ Proven effective in research literature
 4. ✓ Can leverage existing BERT knowledge while adapting to domain
 
-### 3.2 Approach 1: Cluster-Based Fine-Tuning 
+### Approach 1: Cluster-Based Fine-Tuning 
 
 **Methodology:**
 
@@ -465,7 +447,7 @@ While this represents massive improvement, we identified a critical flaw:
 
 This led us to our second, more principled approach.
 
-### 3.3 Approach 2: SimCSE - Self-Supervised Contrastive Learning 
+###  Approach 2: SimCSE - Self-Supervised Contrastive Learning 
 
 **Why SimCSE?**
 
@@ -522,9 +504,9 @@ Based on SimCSE paper and similar work:
 
 ---
 
-## 4. Results Summary
+## Results Summary
 
-### 4.1 Quantitative Results
+###  Quantitative Results
 
 | Method | Silhouette Score | Davies-Bouldin | Calinski-Harabasz | Training Time |
 |--------|------------------|----------------|-------------------|---------------|
@@ -537,7 +519,7 @@ Based on SimCSE paper and similar work:
 2. Even flawed cluster-based fine-tuning provides 62x improvement
 3. SimCSE should provide another 3-5x improvement
 
-### 4.2 Qualitative Analysis
+###  Qualitative Analysis
 
 **Discovered Cluster Themes (after cluster-based fine-tuning):**
 
@@ -567,38 +549,15 @@ Cluster 5 (13.2%): **Humor & Memes**
 
 **Interpretation:** The clusters are meaningful and interpretable, showing that fine-tuning successfully captured marriage discourse semantics!
 
-### 4.3 Visualizations Generated
 
-All visualizations saved to: `/content/drive/MyDrive/TwitterData/visualizations/`
 
-1. **Elbow curve** (optimal k selection)
-2. **Silhouette plots** (cluster quality assessment)
-3. **PCA 2D scatter** (colored by cluster and sentiment)
-4. **t-SNE visualization** (shows cluster separation)
-5. **UMAP projection** (best visualization quality)
-6. **Cluster size distribution** (bar chart)
-7. **Sentiment by cluster** (box plots)
-8. **Word clouds per cluster** (topic visualization)
-9. **Before/after comparison** (baseline vs fine-tuned)
-10. **Topic coherence heatmap** (LDA vs clusters)
-## SimCSE Fine-Tuning Results
-
-The SimCSE self-supervised fine-tuning successfully completed after approximately 12 minutes of training on 242,341 marriage-related tweets using a Tesla GPU. The training employed contrastive learning where each tweet was passed through the BERT model twice with different dropout masks, creating positive pairs without requiring any cluster labels. The model achieved an average training loss of 0.0219, with loss curves showing steady convergence throughout the 3,787 training batches. Embeddings were generated for all three data splits (training, validation, and test sets), producing 768-dimensional representations for the entire dataset of 302,927 tweets. The optimal number of clusters was determined to be k=4 through silhouette score analysis across multiple k values.
+The SimCSE self-supervised fine-tuning successfully completed after approximately 12 minutes of training on 242,341 marriage-related tweets using  GPU. The training employed contrastive learning where each tweet was passed through the BERT model twice with different dropout masks, creating positive pairs without requiring any cluster labels. The model achieved an average training loss of 0.0219, with loss curves showing steady convergence throughout the 3,787 training batches. Embeddings were generated for all three data splits (training, validation, and test sets), producing 768-dimensional representations for the entire dataset of 302,927 tweets. The optimal number of clusters was determined to be k=4 through silhouette score analysis across multiple k values.
 
 The evaluation results demonstrate significant improvement over the baseline BERT embeddings, with the test set achieving a silhouette score of 0.0382 compared to the baseline score of 0.0008—representing a 4,671% improvement. While this falls short of the initial cluster-based fine-tuning approach (which achieved 0.0502), the SimCSE method exhibits superior generalization properties with an extremely small train-test gap of only 0.0009, indicating excellent model stability and minimal overfitting. The consistent performance across training (0.0372), validation (0.0376), and test (0.0382) sets confirms that the self-supervised contrastive learning approach successfully learned meaningful semantic representations of marriage discourse without relying on potentially noisy cluster assignments. The Davies-Bouldin Index of 4.616 and Calinski-Harabasz score of 814.05 on the test set further validate the improved cluster separation and quality achieved through this state-of-the-art fine-tuning methodology.
 
-https://colab.research.google.com/drive/12pB2tBtDnwdf_v6FfG7Yg00c-RH5qDNI
+https://colab.research.google.com/drive/12-nZfrfVN8Gci0pc9YDWCLoGRR7JhnRm#scrollTo=YP0uR9dNq0Cu
 
-
-
-
-
-https://colab.research.google.com/drive/12-nZfrfVN8Gci0pc9YDWCLoGRR7JhnRm
-
-
-https://colab.research.google.com/drive/1KJzrMk_TnVpjmOMpSnOxgsWxznRQi6cm
-
-
+https://colab.research.google.com/drive/1KJzrMk_TnVpjmOMpSnOxgsWxznRQi6cm#scrollTo=YjDh05NllZBc
 
 
 
