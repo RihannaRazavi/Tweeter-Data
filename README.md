@@ -575,8 +575,10 @@ https://colab.research.google.com/drive/1KJzrMk_TnVpjmOMpSnOxgsWxznRQi6cm#scroll
 
 
 colabs:
+https://colab.research.google.com/drive/1KJzrMk_TnVpjmOMpSnOxgsWxznRQi6cm#scrollTo=YjDh05NllZBc
+
+
 https://colab.research.google.com/drive/12-nZfrfVN8Gci0pc9YDWCLoGRR7JhnRm#scrollTo=YP0uR9dNq0Cu
-https://colab.research.google.com/drive/1KJzrMk_TnVpjmOMpSnOxgsWxznRQi6cm#scrollTo=Lot82pmspyFa
 
 visualizations are in:
 https://drive.google.com/drive/folders/16J04LMzQhIuqZcIGIEU3c5Ca7ArBZ2t3
