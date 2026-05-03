@@ -1,0 +1,241 @@
+======================================================================
+8-CLUSTER ANALYSIS REPORT - granite-embedding:278m
+Silhouette Score: 0.048
+======================================================================
+
+
+======================================================================
+CLUSTER 0
+======================================================================
+Size: 53,508 tweets (17.7%)
+Sentiment: Avg score = 0.246
+
+Top Words:
+  - partner
+  - love
+  - won
+  - love partner
+  - partner won
+  - if
+  - out
+  - proud
+  - never
+  - proud partner
+  - as
+  - about
+  - don
+  - spouse
+  - found
+
+Sample Tweets:
+  1. Amazing!!! Incredibly proud of my partner in crime I can’t wait to see what you will achieve. And a huge thank you to for everything you have done ove...
+  2. polyam requires communication and consent. if someone claims to be polyam but hasnt had a convo w their partner(s), or their partner(s) havent consent...
+  3. I love my partner so much...
+  4. On the contrary, I rather like the topic. Talking about experiences and laughing over it together. Maybe it depends on your partner’s maturity 🤔...
+  5. It was my 2nd time suprised my partner's birthday so it may look so fail + awkward + nervous at the same time, lol at me...
+
+======================================================================
+CLUSTER 1
+======================================================================
+Size: 42,379 tweets (14.0%)
+Sentiment: Avg score = 0.199
+
+Top Words:
+  - baby
+  - married
+  - wedding
+  - baby married
+  - love
+  - girl
+  - sister
+  - babe
+  - baby girl
+  - happy
+  - if
+  - baby sister
+  - married baby
+  - man
+  - up
+
+Sample Tweets:
+  1. There are 3 girl friends that have stuck around since I got married, through my pregnancy and after my pregnancy. 3 that will constantly check up, or ...
+  2. Frnd wedding My baby's bday I'm to Gaborone 3 months to festive Is spring Etc...
+  3. Submission done right works both ways. It doesn't only mean being humble but sacrificially humble in love and wisdom. We're both perfected in Christ s...
+  4. I am preggy lady now. And sometimes I crave something weird. So should I ask my baby to crave your wedding? Hahahaha...
+  5. My parents were not married in the catholic church but me and my sibling were baptized. I am not yet married in the church but my baby will be baptize...
+
+======================================================================
+CLUSTER 2
+======================================================================
+Size: 41,662 tweets (13.8%)
+Sentiment: Avg score = 0.204
+
+Top Words:
+  - hubby
+  - won
+  - hubby won
+  - proud
+  - love
+  - proud hubby
+  - love hubby
+  - out
+  - let
+  - as
+  - up
+  - if
+  - won let
+  - lol
+  - about
+
+Sample Tweets:
+  1. Hubby said I got company while his on biz trip so I won’t missed him… dyemmmm!!! ahhh 😱 😳when I opened my laptop now!!! He freaking changed my laptop ...
+  2. If I had lights in the barn id never go in the house I'm sure that's why my hubby won't put them in.....
+  3. Metroparrot Reader's Hubby Won't Let Her Shave her Pubic Hair & She's Worried Sick...
+  4. We are feeling relieved here too, Ethan. Simply because there are so many unknowns. My school has made the same call (in the past week), and hubby won...
+  5. Guess we will see, especially when she gets linked to her hubby's stealing...
+
+======================================================================
+CLUSTER 3
+======================================================================
+Size: 61,233 tweets (20.2%)
+Sentiment: Avg score = 0.122
+
+Top Words:
+  - wife
+  - wifey
+  - husband
+  - man
+  - love
+  - married
+  - spouse
+  - if
+  - won
+  - out
+  - as
+  - don
+  - wedding
+  - about
+  - love wifey
+
+Sample Tweets:
+  1. Yell for my wife to kill it! Really!...
+  2. Wifey's preparing for G7...
+  3. . . . Boops the wifey's nose. "Ahri?"...
+  4. Pragati taking a bold new wifey avatar to claim her right as wife over Raghbir and to bring him back to her is way too awesome turning point in the st...
+  5. I dont know if this is true or not...but I told my wife they gonna cool off Will for about a year until the coast is clear lol They gonna remind him.....
+
+======================================================================
+CLUSTER 4
+======================================================================
+Size: 59,439 tweets (19.6%)
+Sentiment: Avg score = 0.132
+
+Top Words:
+  - partner
+  - old
+  - half
+  - man
+  - old man
+  - hubby
+  - missus
+  - as
+  - wife
+  - out
+  - up
+  - wifey
+  - if
+  - won
+  - husband
+
+Sample Tweets:
+  1. All the fuss who cares what he says he’s a fkn cricketer not an intellectual. I’ll bet he doesn’t take the missus and two blonde daughters back to Pak...
+  2. I’m hiding in the toilet. There’s nothing wrong, it’s just been a week surrounded by children being loud and people using my name. My husband keeps as...
+  3. That is certainly the case with this trio. Love their versions of 'Single Girl, Married Girl', 'My Baby's Gone' and one of my all-time favourite songs...
+  4. “The missus is calling”,yho voetsek man. I get it,uyajola dawg...
+  5. I loved want to upgrade for my better half because its next level move with Nokia C31 & growing personality. #winwithnokiadevices #PlaySanta #NokiaC31...
+
+======================================================================
+CLUSTER 5
+======================================================================
+Size: 32,734 tweets (10.8%)
+Sentiment: Avg score = 0.380
+
+Top Words:
+  - birthday
+  - hubby
+  - hubby birthday
+  - happy
+  - wifey
+  - partner
+  - wifey birthday
+  - love
+  - partner birthday
+  - happy birthday
+  - celebrating
+  - cake
+  - tomorrow
+  - out
+  - celebrate
+
+Sample Tweets:
+  1. Yes sir! That, and for my partner’s birthday!...
+  2. I am going to make semi healthy cupcakes for hubby’s birthday coming up....
+  3. Sneaky peak at the cake I made for hubby's birthday tomorrow. I'm worried that the photo is not…...
+  4. Hola mi cielito i still do this for my hubby y grandkids lol is cute n memorable ❤️❤️💚💚💚...
+  5. Happy, happy birthday to my #1,! I’ll try not to make a show of ye but remember, I’m just so proud! 😘🎂🍻#hubby #birthday...
+
+======================================================================
+CLUSTER 6
+======================================================================
+Size: 7,007 tweets (2.3%)
+Sentiment: Avg score = 0.001
+
+Top Words:
+  - text messages
+  - delete text
+  - messages partner
+  - if gotta
+  - gotta delete
+  - gotta
+  - text
+  - always kissing
+  - touching flirting
+  - flirting if
+  - kissing touching
+  - isn always
+  - messages
+  - touching
+  - always
+
+Sample Tweets:
+  1. Cheating isn't always kissing touching or flirting. If you have to delete texts so your partner won't seem them....you're already there!...
+  2. Cheating isn't always kissing, touching, or flirting. If you gotta delete text messages so your partner won't seem em, you're already there...
+  3. Cheating isn't alwaүs kissing touching or flirting. If үou have to delete texts so үour partner won't seem them....үou're alreadү there!...
+  4. Cheating isn't always kissing, touching, or flirting. If you gotta delete text messages so your partner won't see 'em, you're already there...
+  5. Cheating isn't just kissing, touching, or flirting. If you have to delete text messages so your partner won't see them, you're already there...
+
+======================================================================
+CLUSTER 7
+======================================================================
+Size: 4,966 tweets (1.6%)
+Sentiment: Avg score = 0.000
+
+Top Words:
+  - aquarius
+  - partner won
+  - won
+  - partner
+  - won solved
+  - solved putting
+  - solved
+  - disagreement partner
+  - putting
+  - disagreement
+  - putting aquarius
+
+Sample Tweets:
+  1. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  2. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  3. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  4. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  5. A disagreement with a partner won’t be solved today by putting... More for Aquarius...

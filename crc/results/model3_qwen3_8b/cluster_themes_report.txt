@@ -1,0 +1,241 @@
+======================================================================
+8-CLUSTER ANALYSIS REPORT - qwen3-embedding:8b
+Silhouette Score: 0.044
+======================================================================
+
+
+======================================================================
+CLUSTER 0
+======================================================================
+Size: 44,216 tweets (14.6%)
+Sentiment: Avg score = 0.300
+
+Top Words:
+  - partner
+  - love
+  - love partner
+  - won
+  - partner won
+  - if
+  - out
+  - proud
+  - proud partner
+  - never
+  - don
+  - found
+  - as
+  - out partner
+  - found out
+
+Sample Tweets:
+  1. since this is a discussion happening rn, personally don’t think nini was mean ENOUGH about the chocolate situation like if i found out my partner migh...
+  2. i do, i love my partner very much, i love my friends though theyre very few, and i love my comfort ccs...
+  3. smile is mischief" He says easily, feeling light and content and not at all concerned that Hannibal could be planning something dangerous. Not in this...
+  4. AH..HAVE YOU FORGOTTEN SOMETHING TODAY? 12% of couples have broken-up over someone not acknowledging this....... Their partner's birthday...
+  5. People always befriend me when they’re on a break in their relationship and I think we’ve gotten super close, but then they end up back with the perso...
+
+======================================================================
+CLUSTER 1
+======================================================================
+Size: 32,165 tweets (10.6%)
+Sentiment: Avg score = 0.354
+
+Top Words:
+  - birthday
+  - hubby
+  - hubby birthday
+  - partner
+  - wifey
+  - happy
+  - partner birthday
+  - wifey birthday
+  - love
+  - happy birthday
+  - celebrating
+  - cake
+  - tomorrow
+  - out
+  - celebrate
+
+Sample Tweets:
+  1. Today is my partner’s birthday! He is, without a doubt, the most amazing human being on this planet....
+  2. Good morning! It’s hubby’s birthday today but it’s too cold to go anywhere. Think we’ll stay warm inside! ❄️ ❄️...
+  3. celebrating hubby's birthday with a train trip on the Settle to Carlisle line on St George's day....
+  4. When it's your hubby's birthday and he love ribs where do you take him for dinner? that's where!...
+  5. You both are adorable!! Happy Anniversary ♥️ My hubby and I had ours Sunday 11/2 ♥️♥️...
+
+======================================================================
+CLUSTER 2
+======================================================================
+Size: 43,215 tweets (14.3%)
+Sentiment: Avg score = 0.191
+
+Top Words:
+  - baby
+  - married
+  - wedding
+  - baby married
+  - man
+  - love
+  - girl
+  - if
+  - sister
+  - happy
+  - babe
+  - baby girl
+  - baby sister
+  - married baby
+  - up
+
+Sample Tweets:
+  1. Look at my baby at her parental’s wedding 😍🥰...
+  2. Oh dang, Timehop you got me this morning 😍😭 My boys!! Little Beau loving on my baby bump with Brodie inside my tummy! And my wedding dress all sealed ...
+  3. R: that's my baby Santana. You go get married and leave her with me. It's my child...
+  4. Tryna convince my man that we should just elope and go on an adventure as opposed to having a big wedding...
+  5. For where, if me and my babe marry ehn, that wedding night na to play ps till dawn. We Don c each other finish 😂...
+
+======================================================================
+CLUSTER 3
+======================================================================
+Size: 52,061 tweets (17.2%)
+Sentiment: Avg score = 0.017
+
+Top Words:
+  - hubby
+  - spouse
+  - partner
+  - won
+  - wife
+  - if
+  - husband
+  - as
+  - about
+  - out
+  - don
+  - married
+  - man
+  - up
+  - because
+
+Sample Tweets:
+  1. Yep, I was looked down on because I chose to be a SAHM and that was at the beginning of the 80's! When asked what career I had I would say I am a Home...
+  2. Still sick myself! 😷 Worst part is the ow energy. Or maybe it's that my hubby won't kiss me when I'm sick🙁...
+  3. Not even a little. But I'm hoping that by electing him, my spouse won't own me as property in the next 4 years. Thanks for asking. Lol...
+  4. That you can't take back either! Where is your hubby? Did he leave your cultists flock? Along with your children? Away in college like you said but yo...
+  5. Here is the truth. Not that this high school dropout would know even if hubby's penis hit her in the head. He loves to show his 3 inches off. 'Expect ...
+
+======================================================================
+CLUSTER 4
+======================================================================
+Size: 4,964 tweets (1.6%)
+Sentiment: Avg score = 0.000
+
+Top Words:
+  - won solved
+  - won
+  - solved putting
+  - solved
+  - putting
+  - partner won
+  - partner
+  - disagreement
+  - disagreement partner
+  - putting aquarius
+  - aquarius
+
+Sample Tweets:
+  1. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  2. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  3. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  4. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  5. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+
+======================================================================
+CLUSTER 5
+======================================================================
+Size: 7,033 tweets (2.3%)
+Sentiment: Avg score = 0.001
+
+Top Words:
+  - text messages
+  - delete text
+  - messages partner
+  - if gotta
+  - gotta delete
+  - gotta
+  - text
+  - always kissing
+  - touching flirting
+  - flirting if
+  - kissing touching
+  - isn always
+  - messages
+  - touching
+  - always
+
+Sample Tweets:
+  1. Cheating isn’t always kissing, touching or flirting. If you got to delete your text messages, so your partner won’t see them, you’re already there. LA...
+  2. ewwW gross🤮 cheating is cheating. Mau khilaf mau nyesel, gak ada pembenaran dari selingkuh. When you start "hiding something", so your partner won’t s...
+  3. Cheating isn't always kissing, touching, or flirting. If you gotta delete text messages so your partner won't seem em, you're already there....
+  4. Cheating is not always about flirting or touching . If you gotta delete text messages or lock your screen so your partner won't see them....then you a...
+  5. Cheating isn't always kissing, touching, or flirting. If you gotta delete text messages so your partner won't see......
+
+======================================================================
+CLUSTER 6
+======================================================================
+Size: 65,524 tweets (21.6%)
+Sentiment: Avg score = 0.208
+
+Top Words:
+  - hubby
+  - partner
+  - wife
+  - old
+  - man
+  - old man
+  - won
+  - husband
+  - out
+  - as
+  - up
+  - proud
+  - love
+  - hubby won
+  - about
+
+Sample Tweets:
+  1. Side chick ah lead🗣🗣🗣man tired ah the same style ova & ova... side gyal full ah excitement 🤐 PEOPLE MAN NICE🤣🤣🤣🤣🤣 Man wi all pick fight with wifey ova...
+  2. To be fair, he had to pick up something for the missus!...
+  3. That shit was wild. My wife and I were glued to cnn every night for 2 weeks straight....
+  4. My husband has spent 2 hours looking at various stores for “Rotel dip” … that doesn’t exist. I sent him for 2 cans of Rotel. He sent me this text. I’m...
+  5. Ford always has a home in my driveway. My focus and hubby’s 150 look pretty good in it 😀❤️🇨🇦🍁...
+
+======================================================================
+CLUSTER 7
+======================================================================
+Size: 53,750 tweets (17.7%)
+Sentiment: Avg score = 0.195
+
+Top Words:
+  - hubby
+  - wife
+  - wifey
+  - husband
+  - love
+  - proud
+  - won
+  - proud hubby
+  - love hubby
+  - hubby won
+  - half
+  - miss
+  - man
+  - love wifey
+  - married
+
+Sample Tweets:
+  1. Whatznsks 😂😂🤣🤣 Lmfao this is my husband's pic that I clicked rn in early morning~...
+  2. Welcome back dude! Glad to see you and the missus landed some where safe n sound....
+  3. 'So what? my wife's a doctor' He has a very fair point though 🤭😌...
+  4. Me & Hubby Taking Walk With The Boys 💞💞...
+  5. To scare the missus....

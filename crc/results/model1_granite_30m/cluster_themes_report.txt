@@ -1,0 +1,275 @@
+======================================================================
+8-CLUSTER ANALYSIS REPORT
+Twitter Dataset: 302,928 tweets
+Embedding Model: granite-embedding:30m (384 dimensions)
+Clustering: K-means with k=8
+======================================================================
+
+
+======================================================================
+CLUSTER 0
+======================================================================
+Size: 4,967 tweets (1.6%)
+Avg tweet length: 83 characters
+Sentiment: Avg score = 0.000
+  Positive: 1 (0.0%)
+  Neutral: 4,966 (100.0%)
+  Negative: 0 (0.0%)
+
+Top Words/Phrases:
+  - aquarius
+  - partner
+  - won
+  - partner won
+  - won solved
+  - solved putting
+  - solved
+  - disagreement partner
+  - putting
+  - disagreement
+  - putting aquarius
+
+Sample Tweets:
+  1. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  2. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  3. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  4. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+  5. A disagreement with a partner won’t be solved today by putting... More for Aquarius...
+
+======================================================================
+CLUSTER 1
+======================================================================
+Size: 7,040 tweets (2.3%)
+Avg tweet length: 140 characters
+Sentiment: Avg score = 0.001
+  Positive: 18 (0.3%)
+  Neutral: 7,011 (99.6%)
+  Negative: 11 (0.2%)
+
+Top Words/Phrases:
+  - text messages
+  - delete text
+  - messages partner
+  - if gotta
+  - gotta delete
+  - gotta
+  - text
+  - always kissing
+  - touching flirting
+  - flirting if
+  - kissing touching
+  - isn always
+  - messages
+  - touching
+  - always
+
+Sample Tweets:
+  1. Cheating isn't always kissing, touching, or flirting. If you gotta hide anything so your partner won't seem it, you're already there❗️😴...
+  2. Cheating isn’t always kissing, touching, or flirting. If you gotta delete text messages so your partner won’t see them, you’re already there....
+  3. Cheating isn't always kissing, touching, or flirting. If you gotta delete text messages so your partner won't see them, you're already there boo ....
+  4. Cheating isn't always kissing, touching, or flirting. If you gotta delete text messages so your partner won't seem em, you're already there...
+  5. Cheating isn't just kissing, touching, or flirting. If you have to delete text messages so your partner won't see them, you're already there...
+
+======================================================================
+CLUSTER 2
+======================================================================
+Size: 44,074 tweets (14.5%)
+Avg tweet length: 112 characters
+Sentiment: Avg score = 0.187
+  Positive: 11,577 (26.3%)
+  Neutral: 29,211 (66.3%)
+  Negative: 3,286 (7.5%)
+
+Top Words/Phrases:
+  - hubby
+  - won
+  - hubby won
+  - love
+  - proud
+  - proud hubby
+  - love hubby
+  - as
+  - out
+  - let
+  - up
+  - if
+  - won let
+  - lol
+  - about
+
+Sample Tweets:
+  1. So my hubby just woke up one morning and decided na mag Disneyland kame, and I was like, what are you thinking?! Hahaha! CBTB TurnsTwo #MIWYDealOrNoDe...
+  2. We love to see a protective hubby...
+  3. Ha ha 😂this sooo reminds me of my Hubby, he always insists I drive the Aston Martin on Mondays, knowing that it's more of a weekend car, Though I don'...
+  4. Hubby's bag will have the survival gear. My bag will be full of seasonings 😂 if I'm gonna need to hunt and eat animals I normally wouldn't they are at...
+  5. You know this is serious fan stuff when your nightstand look like this and the framed photo is this one and not hubby’s one🙄🤣🤣🤣 Thanks God for a very ...
+
+======================================================================
+CLUSTER 3
+======================================================================
+Size: 51,610 tweets (17.0%)
+Avg tweet length: 133 characters
+Sentiment: Avg score = 0.267
+  Positive: 17,207 (33.3%)
+  Neutral: 31,118 (60.3%)
+  Negative: 3,285 (6.4%)
+
+Top Words/Phrases:
+  - partner
+  - love
+  - love partner
+  - won
+  - partner won
+  - if
+  - out
+  - proud
+  - birthday
+  - proud partner
+  - never
+  - partner birthday
+  - as
+  - about
+  - don
+
+Sample Tweets:
+  1. What ever that works for you my dear. If it’s a problem that u can’t manage then it’s fine to end it. u’ll get another partner won’t mind.. what ever ...
+  2. I love but I love my partner more. wanna hangout? 😏...
+  3. What happens if my partner won’t go to Family Mediation? via...
+  4. The only way a relationship can last forever is when you create a comfort zone in your relationship where you can be multiple person to your partner, ...
+  5. Proud of my partner in crime for passing her dental school placement exams 💙...
+
+======================================================================
+CLUSTER 4
+======================================================================
+Size: 23,162 tweets (7.6%)
+Avg tweet length: 106 characters
+Sentiment: Avg score = 0.346
+  Positive: 8,471 (36.6%)
+  Neutral: 14,249 (61.5%)
+  Negative: 442 (1.9%)
+
+Top Words/Phrases:
+  - birthday
+  - hubby birthday
+  - hubby
+  - happy
+  - celebrating
+  - cake
+  - love
+  - celebrating hubby
+  - happy birthday
+  - tomorrow
+  - out
+  - celebrate
+  - weekend
+  - dinner
+  - as
+
+Sample Tweets:
+  1. Any chance of a birthday message or my hubby’s birthday in Lockdown? His name is James West and he’ll be 44 on 15th. Thank you 😊...
+  2. Belated HAPPY BIRTHDAY to you sis! It is my hubby‘s birthday too ☺️ All the best wishes to you sis ❤️🍀☀️🎁🎂🎶🥂🎉...
+  3. Had a fantastic family day out yesterday for the hubby’s birthday, the Santa show & pantomime were brilliant ideal for little ones as alternative to s...
+  4. Seriously? Yeah it was freaking stupid! I was beyond mad after that for a solid week lol. I could have picked it up that day too, which was just in ti...
+  5. It’s my hubby’s birthday today 🎉...
+
+======================================================================
+CLUSTER 5
+======================================================================
+Size: 62,743 tweets (20.7%)
+Avg tweet length: 110 characters
+Sentiment: Avg score = 0.117
+  Positive: 11,623 (18.5%)
+  Neutral: 46,876 (74.7%)
+  Negative: 4,244 (6.8%)
+
+Top Words/Phrases:
+  - wife
+  - wifey
+  - husband
+  - spouse
+  - love
+  - man
+  - married
+  - won
+  - if
+  - as
+  - out
+  - don
+  - about
+  - spouse won
+  - birthday
+
+Sample Tweets:
+  1. I feel same way with my wife lol....
+  2. My wife has had both those figures in 25 years of marriage...
+  3. Tell wifey to go to bed I stg...
+  4. It’s Eve! Almost time to celebrate my wifey’s birthday....
+  5. My husband has it. Great plan. STAY IN BED AND SLEEP A LOT....
+
+======================================================================
+CLUSTER 6
+======================================================================
+Size: 44,368 tweets (14.6%)
+Avg tweet length: 126 characters
+Sentiment: Avg score = 0.199
+  Positive: 11,448 (25.8%)
+  Neutral: 30,426 (68.6%)
+  Negative: 2,494 (5.6%)
+
+Top Words/Phrases:
+  - baby
+  - married
+  - wedding
+  - baby married
+  - man
+  - love
+  - girl
+  - happy
+  - sister
+  - if
+  - baby girl
+  - babe
+  - baby sister
+  - married baby
+  - up
+
+Sample Tweets:
+  1. Am not saving new numbers anymore, 😲 the space left is for my babe's family and our neighbors when we get married ✌️🤣🔥...
+  2. GUYSSSSSSSS I get to see my baby sister and watch her get married next week 😭😍...
+  3. Sorry for you loss bro, guys CS is not a dead sentence, for me it's the best as my gave birth to two girls with CS. I had this similar issues while my...
+  4. 😂😂my baby, I want you to get married this December 😂...
+  5. I share this photo with the utmost pride. My daughter, Samantha just graduated from Queens College with her Masters in Early Childhood Education. In 1...
+
+======================================================================
+CLUSTER 7
+======================================================================
+Size: 64,964 tweets (21.4%)
+Avg tweet length: 166 characters
+Sentiment: Avg score = 0.179
+  Positive: 16,109 (24.8%)
+  Neutral: 44,494 (68.5%)
+  Negative: 4,361 (6.7%)
+
+Top Words/Phrases:
+  - partner
+  - old
+  - half
+  - man
+  - old man
+  - wife
+  - wifey
+  - hubby
+  - missus
+  - as
+  - out
+  - husband
+  - up
+  - birthday
+  - about
+
+Sample Tweets:
+  1. My wife goes out the door at 0630, she doesn’t get back until 1900, 6 days a week. She’s not been sick ever, she hasn’t had more than two days holiday...
+  2. My other half 💙...
+  3. On that very subject check out our #webinar with cisco: Still time to register for Cisco Partner's latest event: "Digital Transformation: The Journey ...
+  4. A Christmas Story is a festive fixture in the US.I discovered it as a kid when my old man bought it back from the video shop and it’s been a staple ev...
+  5. Im forever hiding his book in the bookshops in Perth my old man did not like JH but then all his mates including politicians in Labor party in west he...

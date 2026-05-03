@@ -1,0 +1,60 @@
+======================================================================
+COMPREHENSIVE CLUSTERING COMPARISON REPORT
+Generated: 2026-02-17 15:11:33.292414
+======================================================================
+
+CONFIGURATION
+----------------------------------------------------------------------
+K Range: 2 to 15
+Clustering Methods: kmeans, agglomerative, spectral
+Bootstrap Samples: 10
+Dataset Size: 302928 tweets
+
+BEST CONFIGURATION PER MODEL
+----------------------------------------------------------------------
+
+granite-embedding:30m:
+  Embedding Dimensions: 384
+  Best Method: spectral
+  Optimal K: 4
+  Silhouette Score: -0.0188
+  Calinski-Harabasz: 2158.72
+  Davies-Bouldin: 1.1092
+  Robustness (ARI): 0.0000
+  Composite Score: 0.3234
+
+granite-embedding:278m:
+  Embedding Dimensions: 768
+  Best Method: spectral
+  Optimal K: 4
+  Silhouette Score: -0.0073
+  Calinski-Harabasz: 2783.88
+  Davies-Bouldin: 1.0056
+  Robustness (ARI): 0.0000
+  Composite Score: 0.3974
+
+OVERALL BEST MODEL
+----------------------------------------------------------------------
+Winner: granite-embedding:278m
+Configuration: spectral with k=4
+Composite Score: 0.3974
+
+FILES GENERATED
+----------------------------------------------------------------------
+  all_clustering_results.csv
+  comparison_report.txt
+  composite_heatmap_granite_278m.png
+  composite_heatmap_granite_30m.png
+  granite_278m_pca_coords.npy
+  granite_278m_tsne_coords.npy
+  granite_278m_umap_coords.npy
+  granite_30m_pca_coords.npy
+  granite_30m_tsne_coords.npy
+  granite_30m_umap_coords.npy
+  model_comparison_pca.png
+  model_comparison_tsne.png
+  model_comparison_umap.png
+  robustness_vs_k_granite_278m.png
+  robustness_vs_k_granite_30m.png
+  silhouette_vs_k_granite_278m.png
+  silhouette_vs_k_granite_30m.png
