@@ -1142,7 +1142,45 @@ part 5 would be to add crc results interpretation and comparison as well.
 
 
 
+#Part 5- CRC language models results
+folder crc
 
+This folder contains clustering analysis results from three pre-trained embedding models run on Notre Dame's Center for Research Computing (CRC) infrastructure.
+
+
+as Dr Czajka suggested I assign 8 for the presumption of number of clusters.
+
+- **Clustering Method:** K-means with k=8
+
+## Models Comparison
+
+| Model | Parameters | Embedding Dimensions | Silhouette Score |
+|-------|------------|---------------------|------------------|
+| granite-embedding:30m | 30 million | 384 | 0.041 |
+| granite-embedding:278m | 278 million | 768 | **0.048** ✅ Best |
+| qwen3-embedding:8b | 8 billion | 4096 | 0.044 |
+
+**Key Finding:** The medium-sized model (278m) achieved the best clustering quality, outperforming both the smaller (30m) and larger (8b) models.
+
+## Cluster Themes Discovered (Model 1: granite-30m, k=8)
+
+| Cluster | Size | Theme | Sentiment |
+|---------|------|-------|-----------|
+| 0 | 1.6% | Horoscopes/Astrology | Neutral |
+| 1 | 2.3% | Cheating/Trust Issues | Neutral |
+| 2 | 14.5% | Hubby - Daily Life | Positive |
+| 3 | 17.0% | Partner/Relationship Love | Positive |
+| 4 | 7.6% | Birthday Celebrations | Most Positive |
+| 5 | 20.7% | Marriage/Spouse | Positive |
+| 6 | 14.6% | Baby/Family | Positive |
+| 7 | 21.4% | Wife - General | Positive |
+
+## Evaluation Metrics
+
+- **Silhouette Score:** Measures cluster separation (-1 to 1, higher is better)
+- **Calinski-Harabasz Index:** Ratio of between-cluster to within-cluster variance
+- **Davies-Bouldin Index:** Average cluster similarity (lower is better)
+- **Robustness (ARI):** Cluster stability via bootstrap subsampling
 
 
 
